@@ -7,7 +7,7 @@ int main(){
     cin>>ch;
 
     switch(ch){
-        case 'a':
+        case 'a': // hello
         case 'A':
         case 'e':
         case 'E':
