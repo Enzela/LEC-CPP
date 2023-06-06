@@ -5,14 +5,16 @@ int main(){
     string sub[]={"TOC","oop","ECT","EM","MATH"};
 
 int marks[5],i,total;
-cout<<"enter the marks";
+
 for(i=0;i<5;i++)
 {
+    cout<<"the marks is"<<sub[i];
     cin>>marks[i];}
+    total=0;
     for(i=0;i<5;i++){
         total=total+marks[i];
-        cout<<"the marks is"<<total[i];
     }
+    cout<<"the marks is"<<total;
     return 0;
 }
 

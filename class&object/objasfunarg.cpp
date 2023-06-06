@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class mytype
+class complex
 {
     private:
     float real;
@@ -17,16 +17,15 @@ class mytype
     {
         cout<<"("<<real<<","<<imag<<")";
     }
-    void add(mytype c1,mytype c2) //ya return type pani complex huna paryo
+    void add(complex c1, complex c2)
     {
         real = c1.real+c2.real;
         imag = c1.imag+c2.imag;
     }
 };
-int main() 
+int main()
 {
-    mytype c1,c2,c3; //complex data lai return garna ...
-    // class name pani aauta datatype userdefine datatype vayo tei vayera mathi returen type panni class
+    complex c1,c2,c3;
     cout<<"Enter first complex number"<<endl;
     c1.readvalue();
     cout<<"Enter second complex number"<<endl;
@@ -34,7 +33,6 @@ int main()
     c1.showvalue();
     cout<<"+";
     c2.showvalue();
-    c3.add(c1,c2);
     cout<<"=";
     c3.showvalue();
     return 0;

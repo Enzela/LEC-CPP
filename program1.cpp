@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class Room{
+class Room{//class name
     public:
     int length;
     int breadth;
@@ -15,7 +15,7 @@ class Room{
     }    
 };
 int main(){
-    Room obj401;
+    Room obj401;// int main object
     cout<<"Enter length of room:";
     cin>>obj401.length;
     cout<<"Enter breadth of room:";

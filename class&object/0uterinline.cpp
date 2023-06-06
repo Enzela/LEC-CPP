@@ -10,7 +10,7 @@ class student
     void getdata();
     void showdata();
 };
-inline void student::getdata()//function defination
+inline void student::getdata()//function defination bolauna sajilo code fast 
 {
     cout<<"Enter the roll no:";
     cin>>roll;
