@@ -20,7 +20,7 @@ int main(){
     
     cout<<"enter the radius of the circle\n";
     cin>>r;
-    double Area=C1.Calculates(r,3.14);//class.function
+    double Area=C1.Calculates(r,3.14);//class.nction
     double Volume=C1.Calculates(r,3.14,4/3);
     cout<<"the area is "<<Area;
     cout<<"\nthe volume is "<<Volume;

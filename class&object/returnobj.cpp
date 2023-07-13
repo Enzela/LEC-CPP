@@ -12,9 +12,9 @@ class complex
     }
     complex(float re,float im)
     {
-        real=re;
-        imag=im;
-    }
+         real=re;
+         imag=im;
+     }
     void getvalue()
     {
         cout<<"enter real part";
@@ -34,10 +34,11 @@ class complex
         return result;
     }
 
+
 };
 int main()
 {
-    complex  c1,c2(4.2,5.3),c3;
+    complex  c1,c2(0,0),c3;
     c1.getvalue();
     c3=c1.add(c2);
     c1.showvalue();

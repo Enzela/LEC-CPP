@@ -19,6 +19,7 @@ class simple{
  int main()
  {
     simple s1,s2;
+    //
     s1.setdata(101,102);
     s2.setdata(201,202);
     s1.showdata();

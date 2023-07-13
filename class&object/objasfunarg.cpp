@@ -33,6 +33,7 @@ int main()
     c1.showvalue();
     cout<<"+";
     c2.showvalue();
+    c3.add(c1,c2);
     cout<<"=";
     c3.showvalue();
     return 0;

@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 class student
 {
     private:
@@ -10,6 +11,7 @@ class student
     void getdata();
     void showdata();
 };
+
 inline void student::getdata()//function defination bolauna sajilo code fast 
 {
     cout<<"Enter the roll no:";
@@ -25,3 +27,5 @@ inline void student::showdata()
     cout<<"Roll:"<<roll<<endl;
     cout<<"Phone:"<<phone<<endl;
 }
+
+WHERE IS INT MAINN>?????
